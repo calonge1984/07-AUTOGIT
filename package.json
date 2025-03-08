@@ -1,0 +1,14 @@
+{
+  "name": "01-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "push": "git diff --quiet || (git add . && git commit -m \"Auto commit - $(date +'%d%m%Y %H:%M:%S')\" && git push)"
+  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
